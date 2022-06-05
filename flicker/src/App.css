@@ -1,0 +1,16 @@
+.nav-main{
+    /* display: flex;
+    position: absolute; */
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    box-shadow: 10px 10px 10px 10px yellow;
+    border-radius: 20px;
+    border-left: 10px;
+    border-color: orangered;
+}
+.footer-main{
+    /* display: contents; */
+    background-color: rgb(21, 80, 173);
+    color: aliceblue;
+}
