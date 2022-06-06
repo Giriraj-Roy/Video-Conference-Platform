@@ -1,13 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 63, 195);
+}
 .nav-main{
-    /* display: flex;
-    position: absolute; */
-    margin: auto;
-    width: 700px;
-    height: 500px;
-    box-shadow: 10px 10px 10px 10px yellow;
-    border-radius: 20px;
-    border-left: 10px;
-    border-color: orangered;
+    display: flex;
+    position: relative;
+    background-color: rgb(36, 148, 246);
+    width: 100%;
+    height: 4rem;
+    /* box-shadow: 10px 10px 10px 10px yellow; */
+}
+.side-menu{
+    display: block;
+    background-color: rgb(7, 146, 24);
+    width: 25%;
+    height: 100vh;
+    color: aliceblue;
+    font-size: 1.5rem;
+    overflow-y: scroll;
+}
+.appWhole{
+    display: flex;
+}
+.app-body{
+    margin-left: 10rem;
+    width: 100%;
+    height: 1000px;
 }
 .footer-main{
     /* display: contents; */

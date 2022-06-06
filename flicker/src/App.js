@@ -1,15 +1,15 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
 import './App.css'
+import SideMenu from './components/SideMenu'
 
 const App = () => {
   return (
-    <div>
-      {/* This is App Body */}
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
+    <div className='appWhole'>
+      <SideMenu/>
+      <div className='app-body'>
+        This is App Body
+      </div>
     </div>
   )
 }
